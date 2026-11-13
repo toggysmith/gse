@@ -1,5 +1,6 @@
 import click as ck
 
+
 class PositiveInteger(ck.ParamType[int]):
     name = "integer"
 
