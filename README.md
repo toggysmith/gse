@@ -7,5 +7,5 @@
 Generate a `graph.json` file describing the Git submodule graph:
 
 ```console
-gse explore [-d maxdepth] path
+gse explore [-d maxdepth] [-p path]
 ```
