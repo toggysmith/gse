@@ -7,7 +7,7 @@
 Generate a `graph.json` file describing the Git submodule graph:
 
 ```console
-gse explore [-d,--maxdepth] [-p,--path]
+gse explore [-p,--path]
 ```
 
 Convert a `graph.json` file into a `graph.dot` file:
