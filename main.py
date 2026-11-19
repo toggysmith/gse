@@ -40,12 +40,11 @@ def explore(path):
 @ck.option("-f", "--fmt", type = ck.Choice(Format, case_sensitive = False), default = Format.DOT, help = "The format to transform the graph JSON into.")
 @ck.option("-d", "--dst", type = ck.Path(exists = False, dir_okay = False, resolve_path = True, path_type = Path), default = "graph.dot", help = "The path to the file to output the transformed graph JSON into.")
 def transform(src, fmt, dst):
-    with open("graph.json", "r") as f:
+    with open(src, "r") as f:
         graph = json.load(f)
 
     def write_to_f(f, node, parent = None):
         name = f"{node['project']}/{node['repo']}"
-        f.write(f'"{name}"\n')
 
         if 'children' in node:
             for child in node['children']:
@@ -53,10 +52,9 @@ def transform(src, fmt, dst):
                 f.write(f'"{name}" -> "{child_name}"\n')
                 write_to_f(f, child, parent = node)
 
-    with open("graph.dot", "w") as f:
+    with open(dst, "w") as f:
         f.write("digraph G {\n")
         for node in graph:
-            print(node)
             write_to_f(f, node)
         f.write("}\n")
 
