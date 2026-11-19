@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="613pt" height="234pt" viewBox="0.00 0.00 613.00 234.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 229.66)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-229.66 609.48,-229.66 609.48,4 -4,4"/>
+<!-- libbpf/libbpf&#45;bootstrap -->
+<g id="node1" class="node">
+<title>libbpf/libbpf-bootstrap</title>
+<ellipse fill="none" stroke="black" cx="301.25" cy="-207.66" rx="99.01" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="301.25" y="-203.46" font-family="Times,serif" font-size="14.00">libbpf/libbpf-bootstrap</text>
+</g>
+<!-- libbpf/blazesym -->
+<g id="node2" class="node">
+<title>libbpf/blazesym</title>
+<ellipse fill="none" stroke="black" cx="73.25" cy="-124.25" rx="73.25" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="73.25" y="-120.05" font-family="Times,serif" font-size="14.00">libbpf/blazesym</text>
+</g>
+<!-- libbpf/libbpf&#45;bootstrap&#45;&gt;libbpf/blazesym -->
+<g id="edge1" class="edge">
+<title>libbpf/libbpf-bootstrap-&gt;libbpf/blazesym</title>
+<path fill="none" stroke="black" d="M257.56,-191.06C219.54,-177.48 164.4,-157.8 124.35,-143.49"/>
+<polygon fill="black" stroke="black" points="125.76,-140.28 115.16,-140.21 123.4,-146.87 125.76,-140.28"/>
+</g>
+<!-- libbpf/bpftool -->
+<g id="node3" class="node">
+<title>libbpf/bpftool</title>
+<ellipse fill="none" stroke="black" cx="229.25" cy="-124.25" rx="64.68" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="229.25" y="-120.05" font-family="Times,serif" font-size="14.00">libbpf/bpftool</text>
+</g>
+<!-- libbpf/libbpf&#45;bootstrap&#45;&gt;libbpf/bpftool -->
+<g id="edge2" class="edge">
+<title>libbpf/libbpf-bootstrap-&gt;libbpf/bpftool</title>
+<path fill="none" stroke="black" d="M285.99,-189.4C275.99,-178.09 262.76,-163.14 251.59,-150.51"/>
+<polygon fill="black" stroke="black" points="254.5,-148.52 245.26,-143.34 249.26,-153.15 254.5,-148.52"/>
+</g>
+<!-- libbpf/libbpf\n@dcaac95 -->
+<g id="node5" class="node">
+<title>libbpf/libbpf\n@dcaac95</title>
+<ellipse fill="none" stroke="black" cx="373.25" cy="-124.25" rx="61.36" ry="29.42"/>
+<text xml:space="preserve" text-anchor="middle" x="373.25" y="-128.45" font-family="Times,serif" font-size="14.00">libbpf/libbpf</text>
+<text xml:space="preserve" text-anchor="middle" x="373.25" y="-111.65" font-family="Times,serif" font-size="14.00">@dcaac95</text>
+</g>
+<!-- libbpf/libbpf&#45;bootstrap&#45;&gt;libbpf/libbpf\n@dcaac95 -->
+<g id="edge4" class="edge">
+<title>libbpf/libbpf-bootstrap-&gt;libbpf/libbpf\n@dcaac95</title>
+<path fill="none" stroke="black" d="M316.52,-189.4C324.07,-180.86 333.46,-170.25 342.42,-160.12"/>
+<polygon fill="black" stroke="black" points="344.78,-162.73 348.78,-152.92 339.54,-158.09 344.78,-162.73"/>
+</g>
+<!-- libbpf/vmlinux.h -->
+<g id="node6" class="node">
+<title>libbpf/vmlinux.h</title>
+<ellipse fill="none" stroke="black" cx="529.25" cy="-124.25" rx="76.22" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-120.05" font-family="Times,serif" font-size="14.00">libbpf/vmlinux.h</text>
+</g>
+<!-- libbpf/libbpf&#45;bootstrap&#45;&gt;libbpf/vmlinux.h -->
+<g id="edge5" class="edge">
+<title>libbpf/libbpf-bootstrap-&gt;libbpf/vmlinux.h</title>
+<path fill="none" stroke="black" d="M344.95,-191.06C382.85,-177.53 437.76,-157.92 477.79,-143.63"/>
+<polygon fill="black" stroke="black" points="478.73,-147.01 486.97,-140.35 476.37,-140.41 478.73,-147.01"/>
+</g>
+<!-- libbpf/libbpf\n@432a434 -->
+<g id="node4" class="node">
+<title>libbpf/libbpf\n@432a434</title>
+<ellipse fill="none" stroke="black" cx="229.25" cy="-29.42" rx="61.36" ry="29.42"/>
+<text xml:space="preserve" text-anchor="middle" x="229.25" y="-33.62" font-family="Times,serif" font-size="14.00">libbpf/libbpf</text>
+<text xml:space="preserve" text-anchor="middle" x="229.25" y="-16.82" font-family="Times,serif" font-size="14.00">@432a434</text>
+</g>
+<!-- libbpf/bpftool&#45;&gt;libbpf/libbpf\n@432a434 -->
+<g id="edge3" class="edge">
+<title>libbpf/bpftool-&gt;libbpf/libbpf\n@432a434</title>
+<path fill="none" stroke="black" d="M229.25,-105.79C229.25,-95.84 229.25,-82.93 229.25,-70.62"/>
+<polygon fill="black" stroke="black" points="232.76,-70.62 229.25,-60.62 225.76,-70.62 232.76,-70.62"/>
+</g>
+</g>
+</svg>

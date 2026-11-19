@@ -21,3 +21,15 @@ For example:
 ```console
 gse transform --src ./graph.json --fmt dot --dst graph.dot
 ```
+
+## Caveats
+
+At the moment, gse will not show if there are different versions of submodules in the graph.
+
+For example, running this on `libbpf/libbpf-bootstrap` produced this:
+
+![](./meta/graphviz.svg)
+
+However, `libbpf/libbpf-bootstrap` and `libbpf/bpftool` submodule (at the time of writing) different commits of `libbpf/libbpf`. Therefore, a more accurate version of the graph would be:
+
+![](./meta/graphviz_better.svg)
